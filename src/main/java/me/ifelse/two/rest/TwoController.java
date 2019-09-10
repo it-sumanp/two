@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class TwoController {
 
-    public static final String serverUrl = "http://localhost:9090";
+    public static final String serverUrl = "https://9090-dot-8790715-dot-devshell.appspot.com";
 
     @GetMapping("/")
     public static String Hello(){
